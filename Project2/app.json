@@ -1,0 +1,26 @@
+{
+  "id": "4ba9b2d2-2f65-4c1a-91b2-bef0bedcbeb7",
+  "name": "Project2",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99999
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Project2.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}
