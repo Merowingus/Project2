@@ -1,1 +1,1 @@
-﻿{"Added":[],"Modified":[],"Removed":[]}
+﻿{"Added":[],"Modified":[{"Id":50100,"Kind":10,"Name":"NKh Radio Show","PackagePath":"/src/src/Tables/Tab50100.NKhRadioShow.al"},{"Id":50101,"Kind":10,"Name":"NKh Radio Show Type","PackagePath":"/src/src/Tables/Tab50101.NKhRadioShowType.al"}],"Removed":[{"Id":0,"Kind":10,"Name":"_symbolcache","PackagePath":"/src/.vscode/temp-al-proxy.al"}]}

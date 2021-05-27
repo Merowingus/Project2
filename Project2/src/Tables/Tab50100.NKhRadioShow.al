@@ -55,6 +55,58 @@ table 50100 "NKh Radio Show"
             Caption = 'Royalty Cost';
             DataClassification = CustomerContent;
         }
+        field(1000; Frequency; Option)
+        {
+            Caption = 'Frequency';
+            DataClassification = CustomerContent;
+            OptionMembers = Hourly,Daily,Weekly,Monthly;
+        }
+        field(1010; "PSA Planned Quantity"; Integer)
+        {
+            Caption = 'PSA Planned Quantity';
+            DataClassification = CustomerContent;
+        }
+        field(1020; "Ads Planned Quantity"; Integer)
+        {
+            Caption = 'Ads Planned Quantity';
+            DataClassification = CustomerContent;
+        }
+        field(1030; "News Required"; Boolean)
+        {
+            Caption = 'News Required';
+            DataClassification = CustomerContent;
+        }
+        field(1040; "News Duration"; Duration)
+        {
+            Caption = 'News Duration';
+            DataClassification = CustomerContent;
+        }
+        field(1050; "Sports Required"; Boolean)
+        {
+            Caption = 'Sports Required';
+            DataClassification = CustomerContent;
+        }
+        field(1060; "Sports Duration"; Duration)
+        {
+            Caption = 'Sports Duration';
+            DataClassification = CustomerContent;
+        }
+        field(1070; "Weather Required"; Boolean)
+        {
+            Caption = 'Weather Required';
+            DataClassification = CustomerContent;
+        }
+        field(1080; "Weather Duration"; Duration)
+        {
+            Caption = 'Weather Duration';
+            DataClassification = CustomerContent;
+        }
+        field(1090; "Date Filter"; Date)
+        {
+            Caption = 'Weather Duration';
+
+            FieldClass = FlowFilter;
+        }
     }
     keys
     {
