@@ -25,6 +25,11 @@ table 50103 "NKh Playlist Line"
         {
             Caption = 'No.';
             DataClassification = CustomerContent;
+            TableRelation = IF (Type = const(Resource)) Resource."No."
+            ELSE
+            IF (Type = const(Show)) "Radio Show"."No."
+            ELSE
+            IF (Type = const(Item)) Item."No.";
         }
         field(30; "Data Format"; Option)
         {
@@ -60,7 +65,7 @@ table 50103 "NKh Playlist Line"
     }
     keys
     {
-        key(PK; "Document No.")
+        key(PK; "Document No.", "Line No.")
         {
             Clustered = true;
         }

@@ -15,6 +15,11 @@ table 50104 "NKh Playlist Item Rate"
         {
             Caption = 'Source No.';
             DataClassification = CustomerContent;
+            TableRelation = IF ("Source Type" = const(Vendor)) Vendor."No."
+            ELSE
+            IF ("Source Type" = const(Customer)) Customer."No.";
+
+
         }
         field(30; "Item No."; Code[20])
         {

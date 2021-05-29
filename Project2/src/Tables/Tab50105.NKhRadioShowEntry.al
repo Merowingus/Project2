@@ -74,6 +74,14 @@ table 50105 "NKh Radio Show Entry"
         {
             Clustered = true;
         }
+        key(Reporting; "Radio Show No.", Date)
+        {
+            SumIndexFields = "Fee Amount";
+        }
+        key(Reporting2; Type, "No.", Date)
+        {
+            SumIndexFields = "Fee Amount";
+        }
     }
 
 }
