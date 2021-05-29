@@ -1,9 +1,7 @@
-table 50101 "NKh Radio Show Type"
+table 50107 "NKh Publisher"
 {
-    Caption = 'Radio Show Type';
-    DataClassification = CustomerContent;
-    LookupPageId = "Radio Show Type";
-    DrillDownPageId = "Radio Show Type";
+    Caption = 'Publisher';
+    DataClassification = ToBeClassified;
 
     fields
     {

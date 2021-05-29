@@ -14,6 +14,7 @@ table 50100 "NKh Radio Show"
         {
             Caption = 'Radio Show Type';
             DataClassification = CustomerContent;
+            TableRelation = "NKh Radio Show Type";
         }
         field(20; Name; Text[50])
         {
@@ -75,6 +76,7 @@ table 50100 "NKh Radio Show"
         {
             Caption = 'News Required';
             DataClassification = CustomerContent;
+            InitValue = true;
         }
         field(1040; "News Duration"; Duration)
         {
@@ -85,6 +87,7 @@ table 50100 "NKh Radio Show"
         {
             Caption = 'Sports Required';
             DataClassification = CustomerContent;
+            InitValue = true;
         }
         field(1060; "Sports Duration"; Duration)
         {
@@ -95,6 +98,7 @@ table 50100 "NKh Radio Show"
         {
             Caption = 'Weather Required';
             DataClassification = CustomerContent;
+            InitValue = true;
         }
         field(1080; "Weather Duration"; Duration)
         {
